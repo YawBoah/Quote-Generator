@@ -6,7 +6,7 @@
 }
 
 body{
-    background: #bbc6fa;
+    background: #040924;
 }
 
 .quote-box{
@@ -85,4 +85,14 @@ body{
     justify-content: center;
     margin: 5px;
     cursor: pointer;
+}
+
+.quote-box button img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.quote-box button:nth-child(2){
+    background: transparent;
+    color: #333;
 }
